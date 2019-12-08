@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="lzgym_tool",
-    version="0.0.3-hotfix",
+    version="0.0.3.3",
     author="Jacky Lee",
     author_email="emulezhi@gmail.com",
     description="LZGYM's Tool",
