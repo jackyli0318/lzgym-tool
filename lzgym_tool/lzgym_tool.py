@@ -24,7 +24,7 @@ def json_writer(file_name, tmp_dict, indents=4):
     '''
     with open(file_name,"w", encoding='utf-8') as f:
         json.dump(tmp_dict,f, ensure_ascii=False, indent=indents)
-        print("Finished...")
+        print("Finished writing...")
         
         f.close()
 
@@ -39,4 +39,5 @@ def json2dict(file_name):
         data = json.load(f)
         
         f.close()
+    print("Finished reading...")
     return data

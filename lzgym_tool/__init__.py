@@ -1,1 +1,1 @@
-from . import lzgym_tool
+from .lzgym import json2dict, json_writer
