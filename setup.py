@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="gym_tool",
-    version="0.0.1",
+    name="lzgym_tool",
+    version="0.0.2",
     author="Jacky Lee",
     author_email="emulezhi@gmail.com",
-    description="GYM's Tool",
+    description="LZGYM's Tool",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/jackyli0318/lzgym-tool",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
